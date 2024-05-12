@@ -43,7 +43,7 @@ const TicketCard = ({ order }) => {
     };
 
     const ticketId = randomTicketId(Object.keys(tickets));
-    const seating = generateSeating(tickets, 1)[0]; // Assuming generating 1 ticket
+    const seating = generateSeating(tickets, 1)[0]; 
 
     return (
         <div className="ticket-card">
