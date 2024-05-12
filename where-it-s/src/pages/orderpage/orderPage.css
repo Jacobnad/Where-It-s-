@@ -1,0 +1,30 @@
+.order__p-text,
+.order__text {
+    font-family: var(--h3-font-family);
+    color: var(--text-white);
+    font-size: 19px;
+    font-style: italic;
+}
+
+.order__text {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 1rem;
+}
+
+.order__total {
+    font-family: var(--h3-font-family);
+    font-size: 32px;
+    color: var(--text-white);
+    text-shadow: 1px 1px 0 var(--text-dropshadow-pink);
+    margin-bottom: 1rem;
+}
+
+.order__content {
+    overflow-y: auto;
+    max-height: calc(80vh - 10px);
+    padding-bottom: 80px;
+}
+
+.order__content::-webkit-scrollbar {
+    display: none;
+}

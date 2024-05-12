@@ -1,0 +1,58 @@
+.eventcalc__container {
+    margin: 0 auto;
+    max-width: 230px;
+    min-height: 110px;
+    border: 2px solid var(--page-background-pink);
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.eventcalc__price {
+    font-family: var(--h3-font-family);
+    font-size: 28px;
+    color: var(--text-white);
+    text-shadow: 1px 1px 0 var(--text-dropshadow-pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+}
+
+.eventcalc__controls {
+    font-family: var(--h3-font-family);
+    font-size: 20px;
+    font-weight: lighter;
+    color: var(--text-white);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid var(--page-background-pink);
+    align-items: center;
+    padding-top: 10px;
+}
+
+.ticket__nr {
+    font-size: 20px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc__btn {
+    background-color: var(--pagebackground-blue);
+    color: var(--text-white);
+    font-size: 26px;
+    cursor: pointer;
+    border: none;
+    padding: 30px 12px;
+}
+
+.calc__btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.btn__border-right, .btn__border-left {
+    border: 1px solid var(--page-background-pink);
+}

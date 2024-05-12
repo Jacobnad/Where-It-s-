@@ -1,0 +1,122 @@
+.ticket-card {
+    margin: 0 auto;
+    max-width: 311px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.section__title {
+    position: absolute;
+    left: .5rem;
+    top: .5rem;
+    font-family: var(--h3-font-family);
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.4);
+
+}
+
+.what__section {
+    position: relative;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.where__section {
+    position: relative;
+    min-height: 120px;
+    background-color: rgba(0, 0, 0, 0.03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.where__content {
+    font-family: var(--h3-font-family);
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.70);
+}
+
+.when__section {
+    min-height: 60px;
+    background-color: rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: row;
+}
+
+.when__section-inner {
+    width: 33%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.when__title {
+    position: absolute;
+    left: .5rem;
+    top: .5rem;
+    font-family: var(--h3-font-family);
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.when__content {
+    font-family: var(--h3-font-family);
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 18px;
+}
+
+.info__section {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    min-height: 60px;
+    background-color: rgba(0, 0, 0, 0.09);
+}
+
+.info__section-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seating__content {
+    font-family: var(--h3-font-family);
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.60);
+}
+
+.id__section {
+    position: relative;
+    max-height: 120px;
+    background-color: rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ticket__id {
+    position: absolute;
+    bottom: .3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 1rem;
+    font-family: var(--h3-font-family);
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.30);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.barcode {
+    margin-top: 1.2rem;
+    font-size: 101px;
+    font-family: "Libre Barcode 128", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.80);
+}
